@@ -10,6 +10,7 @@ class calcdata1 {
     public $number2;
     public $number3;
 
+    
     public function __construct() {
         $this->number1 = $number1 = $_POST['wasmachine'];
         $this->number2 = $number2 = $_POST['droger'];
